@@ -1,0 +1,47 @@
+body{
+	background-image: url(../img/manbu.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center top;
+	width: 100%;
+	/*background-color: #B0A7F0;*/
+}
+.transparent-bg{
+	position: top;
+	width: 100%;
+	height: 500px;
+	background-color: transparent;
+}
+.white-bg{
+	position: top;
+	width: 100%;
+	
+	background-color: white;
+}
+/*.transparent-block{
+	position: top;
+	width: 100%;
+	height: 500px;
+	background-color: transparent;
+}*/
+.md4-left{
+	width: 100%;
+	height: 500px;
+	background-color: #889EEC;
+}
+.md4-center{
+	width: 100%;
+	height: 500px;
+	background-color: #F08181;
+}
+.md4-right{
+	width: 100%;
+	height: 500px;
+	background-color: #83EFAA;
+}
+.center-title{
+	background-color: #F4F655;
+	width: 100%;
+	height: 100px;
+	position: center;
+}
