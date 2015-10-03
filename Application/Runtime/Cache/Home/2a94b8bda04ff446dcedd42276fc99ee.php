@@ -48,11 +48,15 @@
 	<div class="transparent-bg">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-4">
-				
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="center-title">
+						<h1>智能 多用</h1>
+						<h3>EDIFIER</h3>
+						<a href="#">BUY</a>
+					</div>
 				</div>
-				<div class="col-md-4"></div>
+				<div class="col-md-2"></div>
 			</div>
 		</div>
 	</div>
