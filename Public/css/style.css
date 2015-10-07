@@ -1,5 +1,5 @@
 body{
-	background-image: url(../img/manbu.jpg);
+	background-image: url(../img/manbu1.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center top;
@@ -9,12 +9,12 @@ body{
 .transparent-bg{
 	position: top;
 	width: 100%;
-	height: 500px;
+	height: 560px;
 	background-color: transparent;
 }
 .center-title{
 
-	height: 500px;
+	height: 560px;
 	padding-top: 26%;
 	padding-bottom: 10%;
 	padding-left: 20%;
@@ -25,19 +25,25 @@ body{
 	border-color: #F04E4E;*/
 }
 .center-title h1{
-	color: #000033;
+	color: #EB5850;
 	font-weight: 900;
 	text-align: center;
 	word-wrap: break-word;
+	transition: all 1.2s ease-in-out;
 }
+.center-title h1:hover{
+	transform:scale(1.5);
+}
+
 .center-title h3{
 	font-style: italic;
-	color: #330066 ;
+	color: #EB5850 ;
 	font-weight: 700;
 	text-align: center;
 	word-wrap: break-word;
 }
 .center-title a{
+	/*display: inline-block;*/
 	text-decoration: none;
 	position: relative;
 	left: 41%;
@@ -50,11 +56,15 @@ body{
 	background-color: transparent;
 	padding: 8px;
 	border: 2px solid #EB5850;
+	transition: all .8s;
 }
+
 .center-title a:hover{
 	
-	background-color: #EB5850;
-	border: 2px solid #EB5850;
+	/*background-color: #EB5850;
+	border: 2px solid #EC615A;*/
+	color: red;
+	box-shadow: 0px 0 0 2px #EB5850,  0px 0 0 7px #EB5850, 0px 0 0 28px #EB5850 inset;
 }
 
 .white-bg{

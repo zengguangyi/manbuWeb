@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<title>漫步者</title>
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Publiccss/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap-theme.min.css">
 	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="/manbuweb/Publicjs/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/manbuweb/Public/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/style.css">
 	
 </head>
@@ -51,7 +51,7 @@
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
 					<div class="center-title">
-						<h1>智能 多用</h1>
+						<h1 >智能 多用</h1>
 						<h3>EDIFIER</h3>
 						<a href="#">BUY</a>
 					</div>
@@ -85,6 +85,6 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="/manbuweb/Publicjs/stylejs.js"></script>	
+	<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	
 </body>
 </html>

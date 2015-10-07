@@ -1,0 +1,48 @@
+[ 2015-10-06T14:33:19+08:00 ] ::1 /manbuweb/Publiccss/bootstrap-theme.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Publiccss
+
+[ 2015-10-06T14:33:19+08:00 ] ::1 /manbuweb/Publicjs/stylejs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T14:33:19+08:00 ] ::1 /manbuweb/Publicjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T14:33:19+08:00 ] ::1 /manbuweb/Publicjs/stylejs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T15:17:37+08:00 ] ::1 /manbuweb/Publicjs/stylejs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T15:17:37+08:00 ] ::1 /manbuweb/Publicjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002135s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T15:17:37+08:00 ] ::1 /manbuweb/Publicjs/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Publicjs
+
+[ 2015-10-06T15:17:37+08:00 ] ::1 /manbuweb/Publicjs/stylejs.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Publicjs
+
