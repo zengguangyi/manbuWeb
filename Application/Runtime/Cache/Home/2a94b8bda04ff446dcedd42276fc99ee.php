@@ -50,10 +50,14 @@
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<div class="center-title">
-						<h1 >智能 多用</h1>
-						<h3>EDIFIER</h3>
-						<a href="#">BUY</a>
+					<div class="center-line">
+						<div class="center-title">
+							<h1 >智能 多用</h1>
+							<h3>EDIFIER</h3>
+							<div class="center-buy">
+								<a href="#">BUY</a>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-2"></div>
@@ -64,14 +68,33 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
-					<div class="md4-left"></div>
+					<div class="md4-left">
+						<img src="/manbuweb/Public/img/bluetooth.png">
+						<p>通过蓝牙与手机和电脑连接，使用距离远，且箱体设计更为简洁。</p>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="md4-center"></div>
+					<div class="md4-center">
+						<img src="/manbuweb/Public/img/35mmaux.png">
+						<p>有源2.0声道，3.5mm音频接口。采用全新的1.5英寸全频带铝振膜单元，钕铁硼磁路，内置360度反射式立体声扬声器系统，实现全范围收听，令音质更加出色。</p>
+					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="md4-right"></div>
+					<div class="md4-right">
+						<img src="/manbuweb/Public/img/fmradio.png">
+						<p>FM收音，每个夜晚，让您在舒缓的音乐中入眠。</p>
+					</div>
 				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-4">.col-md-4</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">.col-md-4</div>
