@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>漫步者</title>
+	<title>漫步者M0</title>
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap-theme.min.css">
 	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
@@ -20,13 +20,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">漫步者闹钟</a>
+				<a class="navbar-brand" href="#">漫步者音箱</a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
-					<li><a href="#">Link</a></li>
+					<li><a href="#">参数配置</a></li>
 					<li><a href="#">Link</a></li>
 					<li><a href="#">Link</a></li>
 					<li class="dropdown">
@@ -157,22 +157,28 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4">.col-md-4</div>
-				<div class="col-md-4">.col-md-4</div>
-				<div class="col-md-4">.col-md-4</div>
+				<div class="col-md-12">
+					<div class="line"></div>
+				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4">.col-md-4</div>
-				<div class="col-md-4">.col-md-4</div>
-				<div class="col-md-4">.col-md-4</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">.col-md-6</div>
-				<div class="col-md-6">.col-md-6</div>
+			
+		</div>
+
+		<footer class="foot">
+			<div class="container-fluid">
+				<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<p class="foot-title">Posted by:zengguangyi</p>
+					<p>此网站仅供学习使用</p>
+				</div>
+				<div class="col-md-3"></div>
 			</div>
 		</div>
-	</div>
+	</footer>
+</div>
 
-	<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	
+
+<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	
 </body>
 </html>
