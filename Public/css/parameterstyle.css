@@ -1,0 +1,22 @@
+#parameter-table,td{
+	border: 1px solid;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 120%;
+}
+#parameter-table{
+	width: 70%;
+	height: 900px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foot {
+	margin-top: 20px;
+	text-align: center;
+}
+.foot-title{
+	padding: 10px;
+	border-right: 1px solid #EB5850;
+	border-left: 1px solid #EB5850;
+}
