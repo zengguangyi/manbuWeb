@@ -1,0 +1,72 @@
+[ 2015-10-24T11:36:51+08:00 ] 127.0.0.1 /manbuweb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001557s ]
+ERR: 无法加载模块:Index
+
+[ 2015-10-24T11:36:57+08:00 ] 127.0.0.1 /manbuweb/users.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Users
+
+[ 2015-10-24T11:37:01+08:00 ] 127.0.0.1 /manbuweb/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:User
+
+[ 2015-10-24T11:37:04+08:00 ] 127.0.0.1 /manbuweb/media.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Media
+
+[ 2015-10-24T11:39:24+08:00 ] 127.0.0.1 /manbuweb/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Index
+
+[ 2015-10-24T11:44:41+08:00 ] 127.0.0.1 /manbuweb/index.php/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-10-24T11:44:41+08:00 ] 127.0.0.1 /manbuweb/index.php/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-10-24T11:47:50+08:00 ] 127.0.0.1 /manbuweb/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-10-24T11:47:51+08:00 ] 127.0.0.1 /manbuweb/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-10-24T11:47:53+08:00 ] 127.0.0.1 /manbuweb/index.php/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Index
+
+[ 2015-10-24T21:44:11+08:00 ] 127.0.0.1 /manbuweb/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+ERR: 无法加载模块:Assets
+
+[ 2015-10-24T21:44:11+08:00 ] 127.0.0.1 /manbuweb/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004598s ]
+ERR: 无法加载模块:Assets
+

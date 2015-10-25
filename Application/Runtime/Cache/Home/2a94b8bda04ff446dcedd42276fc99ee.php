@@ -26,7 +26,7 @@
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="<?php echo U('Index/index');?>">首页 <span class="sr-only">(current)</span></a></li>
-					<li><a href="<?php echo U('User/login');?>">登录</a></li>
+					<li><a href="<?php echo U('User/login');?>" class="popup">登录</a></li>
 					<li><a href="<?php echo U('Parameter/index');?>">规格参数</a></li>
 					<li><a href="#">Link</a></li>
 					<li class="dropdown">
@@ -195,5 +195,6 @@
 	</div>
 
 	<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	
+
 </body>
 </html>

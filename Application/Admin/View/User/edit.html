@@ -1,0 +1,133 @@
+<extend name="Public:base" />
+<block name="content">
+	<div class="content">
+		<div class="header">
+
+			<h1 class="page-title">Edit User</h1>
+			<ul class="breadcrumb">
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="users.html">Users</a> </li>
+				<li class="active">{$user_info['username']}</li>
+			</ul>
+
+		</div>
+		<div class="main-content">
+
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab">配置信息</a></li>
+				<li><a href="#profile" data-toggle="tab">修改密码</a></li>
+			</ul>
+
+			<div class="row">
+				<div class="col-md-4">
+					<br>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane active in" id="home">
+							<div id="edit-notice"></div>
+							<form id="edit-tab" action="{:U('User/edit',array("id"=>$user_info['userid']))}" method="post">
+								<div class="form-group">
+									<label>用户名</label>
+									<input type="text" name="edit_username" value="{$user_info['username']}" class="form-control" disabled="true">
+								</div>
+								
+								<div class="form-group">
+									<label>手机号码</label>
+									<input type="text" name="edit_usermobile" value="{$user_info['usermobile']}" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<label>邮箱</label>
+									<input type="text" name="edit_usermail" value="{$user_info['usermail']}" class="form-control">
+								</div>
+
+								<!-- <div class="form-group">
+									<label>地址</label>
+									<textarea value="Smith" rows="3" class="form-control">2817 S 49th
+										Apt 314
+										San Jose, CA 95101
+									</textarea>
+								</div>
+
+								<div class="form-group">
+									<label>Time Zone</label>
+									<select name="DropDownTimezone" id="DropDownTimezone" class="form-control">
+										<option value="-12.0">(GMT -12:00) Eniwetok, Kwajalein</option>
+										<option value="-11.0">(GMT -11:00) Midway Island, Samoa</option>
+										<option value="-10.0">(GMT -10:00) Hawaii</option>
+										<option value="-9.0">(GMT -9:00) Alaska</option>
+										<option selected="selected" value="-8.0">(GMT -8:00) Pacific Time (US &amp; Canada)</option>
+										<option value="-7.0">(GMT -7:00) Mountain Time (US &amp; Canada)</option>
+										<option value="-6.0">(GMT -6:00) Central Time (US &amp; Canada), Mexico City</option>
+										<option value="-5.0">(GMT -5:00) Eastern Time (US &amp; Canada), Bogota, Lima</option>
+										<option value="-4.0">(GMT -4:00) Atlantic Time (Canada), Caracas, La Paz</option>
+										<option value="-3.5">(GMT -3:30) Newfoundland</option>
+										<option value="-3.0">(GMT -3:00) Brazil, Buenos Aires, Georgetown</option>
+										<option value="-2.0">(GMT -2:00) Mid-Atlantic</option>
+										<option value="-1.0">(GMT -1:00 hour) Azores, Cape Verde Islands</option>
+										<option value="0.0">(GMT) Western Europe Time, London, Lisbon, Casablanca</option>
+										<option value="1.0">(GMT +1:00 hour) Brussels, Copenhagen, Madrid, Paris</option>
+										<option value="2.0">(GMT +2:00) Kaliningrad, South Africa</option>
+										<option value="3.0">(GMT +3:00) Baghdad, Riyadh, Moscow, St. Petersburg</option>
+										<option value="3.5">(GMT +3:30) Tehran</option>
+										<option value="4.0">(GMT +4:00) Abu Dhabi, Muscat, Baku, Tbilisi</option>
+										<option value="4.5">(GMT +4:30) Kabul</option>
+										<option value="5.0">(GMT +5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</option>
+										<option value="5.5">(GMT +5:30) Bombay, Calcutta, Madras, New Delhi</option>
+										<option value="5.75">(GMT +5:45) Kathmandu</option>
+										<option value="6.0">(GMT +6:00) Almaty, Dhaka, Colombo</option>
+										<option value="7.0">(GMT +7:00) Bangkok, Hanoi, Jakarta</option>
+										<option value="8.0">(GMT +8:00) Beijing, Perth, Singapore, Hong Kong</option>
+										<option value="9.0">(GMT +9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk</option>
+										<option value="9.5">(GMT +9:30) Adelaide, Darwin</option>
+										<option value="10.0">(GMT +10:00) Eastern Australia, Guam, Vladivostok</option>
+										<option value="11.0">(GMT +11:00) Magadan, Solomon Islands, New Caledonia</option>
+										<option value="12.0">(GMT +12:00) Auckland, Wellington, Fiji, Kamchatka</option>
+									</select>
+								</div> -->
+								<div class="btn-toolbar list-toolbar">
+									<input type="button" value="修改" class="btn btn-primary" id="edit-btn"><!-- <i class="fa fa-save"></i> -->
+									
+								</div>
+							</form>
+						</div>
+
+						<div class="tab-pane fade" id="profile">
+							<div id="edit-notice2"></div>
+							<form id="edit-tab2" action="{:U('User/editpw',array("id"=>$user_info['userid']))}" method="post">
+								<div class="form-group">
+									<label>原密码</label>
+									<input type="password" name="edit-userpw" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>新密码</label>
+									<input type="password" name="edit-newuserpw" class="form-control">
+								</div>
+								<div class="form-group">
+									<label>确认新密码</label>
+									<input type="password" name="edit-newuserpw2" class="form-control">
+								</div>
+								<div>
+									<input type="button" value="修改" class="btn btn-primary" id="edit-btn2">
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<!-- <div class="btn-toolbar list-toolbar">
+						<button class="btn btn-primary"><i class="fa fa-save"></i> Save</button>
+						<a href="#myModal" data-toggle="modal" class="btn btn-danger">Delete</a>
+					</div> -->
+				</div>
+			</div>
+
+			<footer>
+				<hr>
+
+				<!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
+				<p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+				<p>© 2014 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+			</footer>
+		</div>
+	</div>
+
+</block>

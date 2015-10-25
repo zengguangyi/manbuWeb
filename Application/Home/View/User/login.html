@@ -40,19 +40,7 @@
 
   </div>
   
-  <script type="text/javascript">
-    $(function(){
-      $('#login_btn').click(function(){
-      // $username=$('#login_username').val();
-      // $userpw=$('#login_userpw').val();
+  <script type="text/javascript" src="__PUBLIC__/js/login-style.js"></script> 
 
-      var login_arr=$('#login_form').serialize();
-      var $action=$('#login_form').attr('action');
-      $.post($action,login_arr,function(data){
-        $('#login_notice').html(data.info);
-      });
-    })
-    })
-  </script>
 </body>
 </html>
