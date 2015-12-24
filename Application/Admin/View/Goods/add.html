@@ -1,0 +1,57 @@
+<extend name="Public:base" />
+<block name="content">
+	<div class="content">
+		<div class="header">
+
+			<h1 class="page-title">新增商品</h1>
+			<ul class="breadcrumb">
+				<li><a href="index.html">主页</a> </li>
+				<li><a href="users.html">商品</a> </li>
+				<li class="active">{$user_info['username']}</li>
+			</ul>
+
+		</div>
+		<div class="main-content">
+
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab">商品信息</a></li>
+			</ul>
+
+			<div class="row">
+				<div class="col-md-4">
+					<br>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane active in" id="home">
+							<div id="edit-notice"></div>
+							<form id="edit-tab" action="{:U('User/edit',array("id"=>$user_info['userid']))}" method="post">
+								<div class="form-group">
+									<label>商品名称</label>
+									<input type="text" name="edit_username" value="{$user_info['username']}" class="form-control" >
+								</div>
+								
+								<div class="form-group">
+									<label>商品价格</label>
+									<input type="text" name="edit_usermobile" value="{$user_info['usermobile']}" class="form-control">
+								</div>
+
+								<div class="btn-toolbar list-toolbar">
+									<input type="button" value="新增" class="btn btn-primary" id="edit-btn"><!-- <i class="fa fa-save"></i> -->
+									
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<hr>
+
+				<!-- Purchase a site license to remove this link from the footer: http://www.portnine.com/bootstrap-themes -->
+				<p class="pull-right">A <a href="http://www.portnine.com/bootstrap-themes" target="_blank">Free Bootstrap Theme</a> by <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+				<p>© 2014 <a href="http://www.portnine.com" target="_blank">Portnine</a></p>
+			</footer>
+		</div>
+	</div>
+
+</block>

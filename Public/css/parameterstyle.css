@@ -1,3 +1,61 @@
+/*修改bootstrap导航样式*/
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-default{
+	background-image: linear-gradient(to bottom, transparent 0px, transparent 100%);
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+    background-image: linear-gradient(to bottom, #dbdbdb 0px, #FFFFFF 100%);
+}
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #DAD7D7;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.navbar-nav a:hover,.navbar-default .navbar-brand:hover{
+	/*火狐*/
+	background: rgba(255,255,255,1.0) none repeat scroll !important;
+	/*IE背景*/
+	background: #FFFFFF;
+	/*filter:Alpha(opacity=60);*/
+}
+.navbar-default .navbar-brand{
+	color: #DAD7D7;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #DAD7D7;
+}
+
+
+#collapseThings{
+	/*background:-moz-linear-gradient(top,#CECCCC,#FFFFFF);火狐*/
+	background-color: #FFFFFF;
+	padding-top: 2em;
+	padding-bottom: 1em; 
+}
+.collapse-box{
+	text-align: center;
+	padding-bottom: 2em;
+}
+.collapse-box a{
+	font-size: 1.1em;
+	color: #625A5A;
+	text-decoration: none;
+}
+.collapse-box img{
+	padding-top: 1em;
+	width: 3em;
+	height: auto;
+}
+
 #parameter-table,td{
 	border: 1px solid;
 	border-collapse: collapse;

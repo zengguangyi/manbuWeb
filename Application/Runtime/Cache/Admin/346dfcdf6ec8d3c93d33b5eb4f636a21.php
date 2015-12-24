@@ -179,74 +179,46 @@
 	<div class="content">
 		<div class="header">
 
-			<h1 class="page-title">Users</h1>
+			<h1 class="page-title">新增商品</h1>
 			<ul class="breadcrumb">
-				<li><a href="index.html">Home</a> </li>
-				<li class="active">Users</li>
+				<li><a href="index.html">主页</a> </li>
+				<li><a href="users.html">商品</a> </li>
+				<li class="active"><?php echo ($user_info['username']); ?></li>
 			</ul>
 
 		</div>
 		<div class="main-content">
 
-			<div class="btn-toolbar list-toolbar">
-				<button class="btn btn-primary"><i class="fa fa-plus"></i> New User</button>
-				<button class="btn btn-default">Import</button>
-				<button class="btn btn-default">Export</button>
-				<div class="btn-group">
-				</div>
-			</div>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>ID</th>
-						<th>用户名</th>
-						<th>手机号码</th>
-						<th>邮箱</th>
-						<th>注册IP</th>
-						<th>创建时间</th>
-						<th>最后登录时间</th>
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#home" data-toggle="tab">商品信息</a></li>
+			</ul>
 
-						<th style="width: 3.5em;">操作</th>
-					</tr>
-				</thead>
-				<tbody>
-					<?php if(is_array($userlists["lists"])): foreach($userlists["lists"] as $key=>$ul): ?><tr>
-							<td><?php echo ($ul["userid"]); ?></td>
-							<td><?php echo ($ul["username"]); ?></td>
-							<td><?php echo ($ul["usermobile"]); ?></td>
-							<td><?php echo ($ul["usermail"]); ?></td>
-							<td><?php echo ($ul["userip"]); ?></td>
-							<td><?php echo ($ul["usercreate-time"]); ?></td>
-							<td><?php echo ($ul["userlast-time"]); ?></td>
-							<td>
-								<a href="<?php echo U('User/edit',array('id'=>$ul['userid']));?>"><i class="fa fa-pencil"></i></a>
-								<a href="#myModal<?php echo ($ul['userid']); ?>" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
-
-								<div class="modal small fade" id="myModal<?php echo ($ul['userid']); ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-									<div class="modal-dialog">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-												<h3 id="myModalLabel">删除	消息提示</h3>
-											</div>
-											<div class="modal-body">
-												<p class="error-text"><i class="fa fa-warning modal-icon"></i>您确定要删除该用户吗?<br>这是不可回退操作.</p>
-											</div>
-											<div class="modal-footer">
-												<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">取消</button>
-												<button onclick="window.location.href='<?php echo U('User/delete',array('id'=>$ul['userid']));?>'" class="btn btn-danger" data-dismiss="modal">删除</button>
-											</div>
-										</div>
-									</div>
+			<div class="row">
+				<div class="col-md-4">
+					<br>
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane active in" id="home">
+							<div id="edit-notice"></div>
+							<form id="edit-tab" action="<?php echo U('User/edit',array("id"=>$user_info['userid']));?>" method="post">
+								<div class="form-group">
+									<label>商品名称</label>
+									<input type="text" name="edit_username" value="<?php echo ($user_info['username']); ?>" class="form-control" >
+								</div>
+								
+								<div class="form-group">
+									<label>商品价格</label>
+									<input type="text" name="edit_usermobile" value="<?php echo ($user_info['usermobile']); ?>" class="form-control">
 								</div>
 
-							</td>
-						</tr><?php endforeach; endif; ?>
-					<tfoot>
-						<th colspan="6"><?php echo ($userlists["page"]); ?></th>
-					</tfoot>
-				</tbody>
-			</table>
+								<div class="btn-toolbar list-toolbar">
+									<input type="button" value="新增" class="btn btn-primary" id="edit-btn"><!-- <i class="fa fa-save"></i> -->
+									
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<footer>
 				<hr>
@@ -257,6 +229,7 @@
 			</footer>
 		</div>
 	</div>
+
 
 
         <script src="/manbuweb/Public/admin/lib/bootstrap/js/bootstrap.js"></script>

@@ -132,6 +132,14 @@
             <li ><a href="calendar.html"><span class="fa fa-caret-right"></span> 日历</a></li>
           </ul></li>
 
+          <li><a href="#" data-target=".dashboard-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-dashboard"></i> 商品<i class="fa fa-collapse"></i></a></li>
+          <li><ul class="dashboard-menu nav nav-list collapse in">
+            
+            <li ><a href="<?php echo U('Goods/lists');?>"><span class="fa fa-caret-right"></span> 商品列表</a></li>
+            <li ><a href="<?php echo U('Goods/add');?>"><span class="fa fa-caret-right"></span> 新增商品</a></li>
+
+          </ul></li>
+
           <li data-popover="true" data-content="Items in this group require a <strong><a href='http://portnine.com/bootstrap-themes/aircraft' target='blank'>premium license</a><strong>." rel="popover" data-placement="right"><a href="#" data-target=".premium-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-fighter-jet"></i> 高级功能<i class="fa fa-collapse"></i></a></li>
           <li><ul class="premium-menu nav nav-list collapse">
             <li class="visible-xs visible-sm"><a href="#">- 高级功能需要许可证 -</a></span>

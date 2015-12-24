@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>漫步者M0</title>
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap-theme.min.css">
@@ -11,77 +13,103 @@
 	
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="<?php echo U('Index/index');?>">漫步者音箱</a>
+	<div class="container-fluid">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="<?php echo U('Index/index');?>">漫步者音箱</a>
+					</div>
+
+					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="<?php echo U('Index/index');?>">首页 <span class="sr-only">(current)</span></a></li>
+							<li><a href="<?php echo U('User/login');?>" class="popup">登录/注册</a></li>
+							<li><a href="<?php echo U('Parameter/index');?>">规格参数</a></li>
+							<li><a href="<?php echo U('Product/index');?>">产品介绍</a></li>
+							<li ><a data-toggle="collapse" href="#collapseThings" aria-expanded="true" aria-controls="collapseThings">更多款型</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="<?php echo U('Index/index');?>">首页 <span class="sr-only">(current)</span></a></li>
-					<li><a href="<?php echo U('User/login');?>" class="popup">登录</a></li>
-					<li><a href="<?php echo U('Parameter/index');?>">规格参数</a></li>
-					<li><a href="#">Link</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">Separated link</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="#">One more separated link</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<div class="transparent-bg">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
-					<div class="center-line">
-						<div class="center-title">
-							<h1 >智能 多用</h1>
-							<h3>EDIFIER</h3>
-							<div class="center-buy">
-								<a href="#">BUY</a>
-							</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="collapse" id="collapseThings">
+						<!-- 隐藏的关于栏 -->
+						<div class="row collapse-box">
+							<div class="col-md-4"></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><strong>手机耳机</strong></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><strong>游戏耳机</strong></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><strong>电脑音箱</strong></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><strong>家居音箱</strong></a></div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row collapse-box">
+							<div class="col-md-4"></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings1.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings2.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings3.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings4.png"></a></div>
+							<div class="col-md-4"></div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-2"></div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="transparent-bg">
+
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
+							
+								<div class="center-title">
+									<h3>Wake up to your favourite tunes</h3>
+									<h1 >Tick Tock</h1>
+									<h3>EDIFIER</h3>
+									<div class="center-buy">
+										<a href="#">BUY</a>
+									</div>
+								</div>
+							
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
 	<div class="white-bg">
+	     <!-- 产品图片展示 -->
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="md4-left">
-						<img src="/manbuweb/Public/img/bluetooth1.png">
+						<img src="/manbuweb/Public/img/bluetooth.png">
 						<p>通过蓝牙与手机和电脑连接，使用距离远，且箱体设计更为简洁。</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="md4-center">
-						<img src="/manbuweb/Public/img/35mmaux1.png">
+						<img src="/manbuweb/Public/img/35mmaux.png">
 						<p>有源2.0声道，3.5mm音频接口。采用全新的1.5英寸全频带铝振膜单元，钕铁硼磁路，内置360度反射式立体声扬声器系统，实现全范围收听，令音质更加出色。</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="md4-right">
-						<img src="/manbuweb/Public/img/fmradio1.png">
+						<img src="/manbuweb/Public/img/fmradio.png">
 						<p>FM收音，每个夜晚，让您在舒缓的音乐中入眠。</p>
 					</div>
 				</div>
@@ -92,7 +120,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-6">     <!-- col-sm-12对手机平板适应布局-->
+				<div class="col-md-3 col-sm-6">    
 					<div class="history-left" id="imgLeft">
 						<img src="/manbuweb/Public/img/history1.jpg">
 					</div>
@@ -163,6 +191,7 @@
 			</div>
 			
 		</div>
+		<!-- container-fluid产品图片展示 -->
 
 		<footer class="foot">
 			<div class="container-fluid">
@@ -176,8 +205,9 @@
 				</div>
 			</div>
 		</footer>
-
-		<div id="footbar-aa">
+        
+        <!-- 底部二维码遮罩 -->
+		<!-- <div id="footbar-aa">
 			<div id="footbar-bb">
 				<div id="footbar-cc">
 					<a href="javascript:;"></a>
@@ -191,7 +221,7 @@
 					<img src="/manbuweb/Public/img/gyblog.jpg">
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	

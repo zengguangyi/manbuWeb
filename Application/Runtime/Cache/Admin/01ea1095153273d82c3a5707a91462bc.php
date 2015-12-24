@@ -179,10 +179,10 @@
 	<div class="content">
 		<div class="header">
 
-			<h1 class="page-title">Users</h1>
+			<h1 class="page-title">商品</h1>
 			<ul class="breadcrumb">
-				<li><a href="index.html">Home</a> </li>
-				<li class="active">Users</li>
+				<li><a href="index.html">主页</a> </li>
+				<li class="active">商品列表</li>
 			</ul>
 
 		</div>
@@ -199,25 +199,23 @@
 				<thead>
 					<tr>
 						<th>ID</th>
-						<th>用户名</th>
-						<th>手机号码</th>
-						<th>邮箱</th>
-						<th>注册IP</th>
+						<th>商品名</th>
+						<th>商品价格</th>
 						<th>创建时间</th>
-						<th>最后登录时间</th>
+						<th>更新时间</th>
 
 						<th style="width: 3.5em;">操作</th>
 					</tr>
 				</thead>
 				<tbody>
 					<?php if(is_array($userlists["lists"])): foreach($userlists["lists"] as $key=>$ul): ?><tr>
-							<td><?php echo ($ul["userid"]); ?></td>
-							<td><?php echo ($ul["username"]); ?></td>
-							<td><?php echo ($ul["usermobile"]); ?></td>
-							<td><?php echo ($ul["usermail"]); ?></td>
-							<td><?php echo ($ul["userip"]); ?></td>
-							<td><?php echo ($ul["usercreate-time"]); ?></td>
-							<td><?php echo ($ul["userlast-time"]); ?></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
 							<td>
 								<a href="<?php echo U('User/edit',array('id'=>$ul['userid']));?>"><i class="fa fa-pencil"></i></a>
 								<a href="#myModal<?php echo ($ul['userid']); ?>" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
