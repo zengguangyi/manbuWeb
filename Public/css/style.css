@@ -19,7 +19,7 @@ body{
 	border-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
-    background-image: linear-gradient(to bottom, #dbdbdb 0px, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #dbdbdb 0px, #FFFFFF 100%);
 }
 .navbar-default .navbar-toggle {
 	border-color: transparent;
@@ -78,19 +78,31 @@ body{
 	text-align: center;
 	margin: 0 auto;
 
-}*/
-.center-title{
-	width: 50%;
-	height: 80%;
+	}*/
+	.center-title{
+		width: 50%;
+		height: 80%;
 /*	padding-top: 15%;
 	padding-left: 20%;
 	padding-right: 20%;
-*/
+	*/
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-left: -25%;
 	margin-top: 5%;
+}
+@keyframes tickTockTitle{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+@keyframes edifierTitle{
+	from{color: #FFFFFF;}
+	to{color: #F3D6D5;}
+}
+@keyframes wakeUpTitle{
+	from{opacity: 0;padding-bottom: 3em;}
+	to{opacity: 1;padding-bottom: 0em;}
 }
 .center-title h1{
 	color: #FFFFFF;
@@ -99,12 +111,12 @@ body{
 	font-size: 6em;
 	text-align: center;
 	word-wrap: break-word;
+	animation: tickTockTitle 7s;
 	transition: all 1.2s ease-in-out;
 }
 .center-title h1:hover{
 	transform:scale(1.5);
 }
-
 .center-title h3{
 	font-family: "adobe-garamond-pro";
 	font-style: italic;
@@ -112,6 +124,8 @@ body{
 	font-weight: 700;
 	text-align: center;
 	word-wrap: break-word;
+	animation: edifierTitle 7s;
+	animation: wakeUpTitle 7s ease;
 }
 .center-title h3:hover{
 	color: #F6C8C6;
@@ -209,11 +223,6 @@ body{
 	.foot {
 		text-align: center;
 	}
-	.foot-title{
-		padding: 10px;
-		border-right: 1px solid #000000;
-		border-left: 1px solid #000000;
-	}
 
 	#footbar-aa{
 
@@ -299,72 +308,92 @@ body{
 		width: auto;
 	}
 
+	.social{
+		margin: 0 auto;
+		padding: 1em;
+		color: #000;
+		list-style: none;
+	}
+	.social i{
+		color: #000;
+		padding: 0.6em;
+	}
+	.social-left a,.social-left a:hover{
+		text-align: center;
+		color: #000;
+		font-size: 120%;
+		font-weight: 500;
+		text-decoration: none;
+	}
+	.social-left a:hover{
+		color: #55585A;
+	}
 	#jelly{
-	z-index: 1000;
-	background:-moz-linear-gradient(top,#CECCCC,#FFFFFF);/*火狐*/
-	/*background-color: #FFFFFF;*/
-	top: 0.2em;
-	margin: 0 auto;
-	width: 13em;
-	height: 8em;
-	border-radius: 50% / 100% 100% 0 0;
+		z-index: 1000;
+		/*background:-moz-linear-gradient(top,#CECCCC,#FFFFFF);火狐*/
+		background-color: #FFFFFF;
+		top: 0.2em;
+		margin: 0 auto;
+		width: 13em;
+		height: 8em;
+		border-radius: 50% / 100% 100% 0 0;
 
-}
-#jelly-right-eyebrows{
-	position: relative;
-	float: right;
-	width: 0;
-	height: 0;
-	border-left: 0.8em solid transparent;
-	border-right: 3.2em solid #55585A;
-	border-top: 1em solid transparent;
-	border-bottom: 1em solid #55585A;
-	/*display: none;*/
-}
-#jelly-left-eyebrows{
-	position: relative;
-	float: left;
-	
-	width: 0;
-	height: 0;
-	border-left: 3.2em solid #55585A;
-	border-right: 0.8em solid transparent;
-	border-top: 1em solid transparent;
-	border-bottom: 1em solid #55585A;
-	/*display: none;*/
-}
-#jelly-left-eye{
-	background-color: #55585A;
-	position: relative;
-	top: 2.3em;
-	left: 20%;
-	/*margin: 0 auto;*/
-	width: 2em;
-	height: 2em;
-	border-radius: 50%;
-	/*display: none;*/
-}
-#jelly-right-eye{
-	background-color: #55585A;
-	position: relative;
-	top: 0.3em;
-	left: 65%;
-	/*margin: 0 auto;*/
-	width: 2em;
-	height: 2em;
-	border-radius: 50%;
-	/*display: none;*/
-}
-#jelly-mouth{
-	/*background-color: #55585A;*/
-	position: relative;
-	top: 0.8em;
-	margin: 0 auto;
-	width: 0;
-	height: 0;
-	border-left: 1.2em solid transparent;
-	border-right: 1.2em solid transparent;
-	border-bottom: 4em solid #55585A;
-	border-radius: 10%;
-	display: none;
-}
+	}
+	#jelly-right-eyebrows{
+		position: relative;
+		float: right;
+		width: 0;
+		height: 0;
+		border-left: 0.8em solid transparent;
+		border-right: 3.2em solid #55585A;
+		border-top: 1em solid transparent;
+		border-bottom: 1em solid #55585A;
+		/*display: none;*/
+	}
+	#jelly-left-eyebrows{
+		position: relative;
+		float: left;
+
+		width: 0;
+		height: 0;
+		border-left: 3.2em solid #55585A;
+		border-right: 0.8em solid transparent;
+		border-top: 1em solid transparent;
+		border-bottom: 1em solid #55585A;
+		/*display: none;*/
+	}
+	#jelly-left-eye{
+		background-color: #55585A;
+		position: relative;
+		top: 2.3em;
+		left: 20%;
+		/*margin: 0 auto;*/
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		/*display: none;*/
+	}
+	#jelly-right-eye{
+		background-color: #55585A;
+		position: relative;
+		top: 0.3em;
+		left: 65%;
+		/*margin: 0 auto;*/
+		width: 2em;
+		height: 2em;
+		border-radius: 50%;
+		/*display: none;*/
+	}
+	#jelly-mouth{
+		/*background-color: #55585A;*/
+		position: relative;
+		top: 0.8em;
+		margin: 0 auto;
+		width: 0;
+		height: 0;
+		border-left: 1.2em solid transparent;
+		border-right: 1.2em solid transparent;
+		border-bottom: 4em solid #55585A;
+		border-radius: 10%;
+		display: none;
+	}
