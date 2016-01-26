@@ -87,7 +87,7 @@ class UserModel extends Model {
 			return $this->getError();
 
 		}else{
-
+			
 			if($this->add()>0){
 				return '注册成功';
 			}else{
