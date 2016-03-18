@@ -5,12 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>漫步者M0</title>
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/font-awesome-4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/bootstrap-theme.min.css">
 	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="/manbuweb/Public/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/style.css">
+	<script type="text/javascript" src="/manbuWeb/Public/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/style.css">
 	
 </head>
 <body>
@@ -54,10 +54,10 @@
 						</div>
 						<div class="row collapse-box">
 							<div class="col-md-4"></div>
-							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings1.png"></a></div>
-							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings2.png"></a></div>
-							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings3.png"></a></div>
-							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings4.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings1.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings2.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings3.png"></a></div>
+							<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings4.png"></a></div>
 							<div class="col-md-4"></div>
 						</div>
 					</div>
@@ -98,19 +98,19 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="md4-left">
-						<img src="/manbuweb/Public/img/bluetooth.png">
+						<img src="/manbuWeb/Public/img/bluetooth.png">
 						<p>通过蓝牙与手机和电脑连接，使用距离远，且箱体设计更为简洁。</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="md4-center">
-						<img src="/manbuweb/Public/img/35mmaux.png">
+						<img src="/manbuWeb/Public/img/35mmaux.png">
 						<p>有源2.0声道，3.5mm音频接口。采用全新的1.5英寸全频带铝振膜单元，钕铁硼磁路，内置360度反射式立体声扬声器系统，实现全范围收听，令音质更加出色。</p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="md4-right">
-						<img src="/manbuweb/Public/img/fmradio.png">
+						<img src="/manbuWeb/Public/img/fmradio.png">
 						<p>FM收音，每个夜晚，让您在舒缓的音乐中入眠。</p>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-6">    
 					<div class="history-left" id="imgLeft">
-						<img src="/manbuweb/Public/img/history1.jpg">
+						<img src="/manbuWeb/Public/img/history1.jpg">
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -138,7 +138,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="history-right">
-						<img src="/manbuweb/Public/img/history2.jpg">
+						<img src="/manbuWeb/Public/img/history2.jpg">
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -165,7 +165,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="history-left" id="imgLeft">
-						<img src="/manbuweb/Public/img/history3.jpg">
+						<img src="/manbuWeb/Public/img/history3.jpg">
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
@@ -180,7 +180,7 @@
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="history-right">
-						<img src="/manbuweb/Public/img/history4.jpg">
+						<img src="/manbuWeb/Public/img/history4.jpg">
 					</div>
 				</div>
 			</div>
@@ -234,19 +234,19 @@
 				</div>
 				<div id="footbar-left">
 					<p>手机扫码浏览</p>
-					<img src="/manbuweb/Public/img/gyblog.jpg">
+					<img src="/manbuWeb/Public/img/gyblog.jpg">
 				</div>
 				<div id="footbar-right">
 					<p>扫码关注微信</p>
-					<img src="/manbuweb/Public/img/gyblog.jpg">
+					<img src="/manbuWeb/Public/img/gyblog.jpg">
 				</div>
 			</div>
 		</div> -->
 	</div>
 
-	<script src="/manbuweb/Public/js/jquery.jrumble.1.3.min.js"></script> 
-	<script src="/manbuweb/Public/js/prettify.js"></script>
-	<script type="text/javascript" src="/manbuweb/Public/js/stylejs.js"></script>	
+	<script src="/manbuWeb/Public/js/jquery.jrumble.1.3.min.js"></script> 
+	<script src="/manbuWeb/Public/js/prettify.js"></script>
+	<script type="text/javascript" src="/manbuWeb/Public/js/stylejs.js"></script>	
 
 </body>
 </html>

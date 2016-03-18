@@ -5,15 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>产品介绍</title>
 
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/bootstrap-theme.min.css">
 	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-	<script type="text/javascript" src="/manbuweb/Public/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/manbuWeb/Public/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/lightbox2/css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/lightbox2/css/lightbox.css">
 	
-	<link rel="stylesheet" href="/manbuweb/Public/fullpage/css/jquery.fullPage.css">
-	<link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/productstyle.css">
+	<link rel="stylesheet" href="/manbuWeb/Public/fullpage/css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/productstyle.css">
 
 </head>
 <body>
@@ -60,10 +60,10 @@
 								</div>
 								<div class="row collapse-box">
 									<div class="col-md-4"></div>
-									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings1.png"></a></div>
-									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings2.png"></a></div>
-									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings3.png"></a></div>
-									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuweb/Public/img/collapseThings4.png"></a></div>
+									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings1.png"></a></div>
+									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings2.png"></a></div>
+									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings3.png"></a></div>
+									<div class="col-md-1 col-sm-6"><a href="#"><img src="/manbuWeb/Public/img/collapseThings4.png"></a></div>
 									<div class="col-md-4"></div>
 								</div>
 							</div>
@@ -86,7 +86,7 @@
 							</ul>
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-12">
-							<img src="/manbuweb/Public/img/product1.jpg" class="img-responsive" id="page1-iamge">
+							<img src="/manbuWeb/Public/img/product1.jpg" class="img-responsive" id="page1-iamge">
 						</div>
 					</div>
 				</div>
@@ -133,7 +133,7 @@
 					</div>
 					<div class="col-md-6 col-xs-12">
 						<div id="page2-iamge">
-							<img src="/manbuweb/Public/img/product2.png" class="img-responsive">
+							<img src="/manbuWeb/Public/img/product2.png" class="img-responsive">
 						</div>
 					</div>
 				</div>
@@ -144,41 +144,41 @@
 			<div class="gallery_box">
 				<div class="grid" id="masonry">
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage1.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage1.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage1.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage1.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage2.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage2.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage2.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage2.jpg"></a>
 					</div>
 					<div class="grid-item grid-item-width2">
-						<a href="/manbuweb/Public/img/productPage3.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage3.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage3.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage3.jpg"></a>
 					</div>
 					
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage4.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage4.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage4.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage4.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage5.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage5.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage5.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage5.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage6.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage6.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage6.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage6.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage7.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage7.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage7.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage7.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage8.png" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage8.png"></a>
+						<a href="/manbuWeb/Public/img/productPage8.png" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage8.png"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage9.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage9.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage9.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage9.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage10.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage10.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage10.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage10.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage11.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage11.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage11.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage11.jpg"></a>
 					</div>
 					<div class="grid-item">
-						<a href="/manbuweb/Public/img/productPage12.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuweb/Public/img/productPage12.jpg"></a>
+						<a href="/manbuWeb/Public/img/productPage12.jpg" data-lightbox="image-1" data-title="My caption"><img src="/manbuWeb/Public/img/productPage12.jpg"></a>
 					</div>
 				</div>
 			</div>
@@ -188,10 +188,10 @@
 	</div>
 
 	
-	<script src="/manbuweb/Public/fullpage/js/jquery.fullPage.js"></script>
-	<script src="/manbuweb/Public/js/imagesloaded.pkgd.min.js"></script>
-	<script src="/manbuweb/Public/js/masonry.js"></script>
-	<script type="text/javascript" src="/manbuweb/Public/lightbox2/js/lightbox.js"></script>	
-	<script type="text/javascript" src="/manbuweb/Public/js/productjs.js"></script>
+	<script src="/manbuWeb/Public/fullpage/js/jquery.fullPage.js"></script>
+	<script src="/manbuWeb/Public/js/imagesloaded.pkgd.min.js"></script>
+	<script src="/manbuWeb/Public/js/masonry.js"></script>
+	<script type="text/javascript" src="/manbuWeb/Public/lightbox2/js/lightbox.js"></script>	
+	<script type="text/javascript" src="/manbuWeb/Public/js/productjs.js"></script>
 </body>
 </html>
