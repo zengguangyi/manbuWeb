@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>漫步者|注册</title>
-  <link rel="stylesheet" type="text/css" href="/manbuweb/Public/css/loginstyle.css">
+  <link rel="stylesheet" type="text/css" href="/manbuWeb/Public/css/loginstyle.css">
   <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body class="align">
@@ -54,7 +54,7 @@
 
   </div>
 
-  <script type="text/javascript" src="/manbuweb/Public/js/login-style.js"></script> 
+  <script type="text/javascript" src="/manbuWeb/Public/js/login-style.js"></script> 
   
 </body>
 </html>
